@@ -27,8 +27,8 @@ body{
 #t2{
     background:url('2017-12-03 12.14.52 (1).jpg');
     background-size: cover;
-    width:1vw;
-    height:1vw;
+    width:16%;
+    height:25%;
     margin-top:3%;
     margin-left:7.5%;
     position:fixed; /*依照瀏覽業確定位置*/
