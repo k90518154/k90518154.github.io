@@ -1,8 +1,8 @@
 @charset "Utf-8";
 body{
     background: cadetblue url(Image28.jpg) fixed no-repeat;
-    min-height:3000px; /*解決圖片大小 小於視窗 而產生露白情形*/
-    min-width:1000px;
+    min-height:1000px; /*解決圖片大小 小於視窗 而產生露白情形*/
+    min-width:600px;
     background-size: cover; /*依照瀏覽器自動收放圖片*/
 }
 #t1{
@@ -14,7 +14,7 @@ body{
     background-size: cover; 
     float: left;
     width:30%;
-    height:3000px; 
+    height:1000px; 
     margin-left: 1%;
 }
 #t1_1{
