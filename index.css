@@ -1,9 +1,9 @@
 @charset "Utf-8";
 body{
-    background: cadetblue url(Image28.jpg) fixed no-repeat;
-    min-height:1000px; /*解決圖片大小 小於視窗 而產生露白情形*/
-    min-width:600px;
-    background-size: cover; /*依照瀏覽器自動收放圖片*/
+    background:white; /*url(Image28.jpg) fixed no-repeat;*/
+    /*min-height:1000px; 解決圖片大小 小於視窗 而產生露白情形*/
+    /*min-width:600px;*/
+    /*background-size: cover; 依照瀏覽器自動收放圖片*/
 }
 #t1{
     background-image:url("th.jpg");
