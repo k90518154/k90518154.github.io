@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link  rel="stylesheet" href="cssReset.css">
+    <link  rel="stylesheet" href="index.css">
+    <title>網頁作業from1.html</title>
+</head>
+<body>
+
+
+<div id="form1"> 
+    <form>
+        <center>
+            <h1 style="font-weight:bold" >請輸入您的基本資料</h1>    
+            <hr> 
+            <span class="font_1"><span id="c">*</span>使用者名稱:</span><input class="font" name="name" type="text" required pattern="[A-Za-z0-9]*" title="請輸入英文字母或數字"><br>
+            <hr> 
+            <span class="font_1"><span id="c">*</span>使用者密碼:</span><input class="font" name="password" type="password" required pattern="[A-Za-z0-9]*" title="請輸入英文字母或數字"><br>
+            <hr> 
+            <span class="font_2"><span id="c">*</span>輸入姓名:</span><input class="font" name="name" type="text" required ><br>
+            <hr> 
+            <span class="font_2"><span id="c">*</span>電子郵件:</span><input class="font" name="mail" type="text" required pattern="[A-Za-z0-9_.]+@[a-zA-Z0-9_.]+" title="例:sh940827@gmail.com,特殊字符只能輸入 @(小老鼠) .(點) _(下滑線) "><br>
+            <hr> 
+                <span class="font_4"><span id="c">*</span>性別:</span>
+                    <input class="font" name="sex" type="radio" value="male"><span class="font_1"required>男</span>
+                    <input class="font" name="sex" type="radio" value="female"><span class="font_1"required>女</span><br>
+            <hr> 
+                <span class="font_3">&nbsp;興趣:</span>
+                <input class="font" name="interest" type="checkbox" value="1"><span class="font_1">籃球</span>
+                <input class="font" name="interest" type="checkbox" value="2"><span class="font_1">音樂</span>
+                <input class="font" name="interest" type="checkbox" value="3"><span class="font_1">電影</span>
+                <input class="font" name="interest" type="checkbox" value="4"><span class="font_1">發呆</span><br>
+            <hr> 
+                <span class="font_2"><span id="c">*</span>行動電話:</span><input class="font" name="mobilephone" type="text" maxlength="10" required pattern="[0-9]*"title="請輸入數字"><br>
+            <hr> 
+            <a href="file:///C:/Users/user/Desktop/k90518154.github.io-master/index.html"><input type="button" value="回到首頁">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <input type="submit" name="Sendout" value="送出">
+            <SPan>&nbsp;&nbsp;</SPan>  
+            <input type="reset" name="reset" value="清除">    
+        </center>
+    </form>
+</div>
+</body>
+</html>
